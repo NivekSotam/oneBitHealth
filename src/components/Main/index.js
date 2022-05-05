@@ -1,11 +1,13 @@
 import React from "react";
-import { View, Text } from "react-native"
+import { View } from "react-native"
+import Form from "../Form/";
 
 
 export default function Title(){
     return(
         <View>
-            <Text>ONEBITHELTH</Text>  
+            <Form/>
         </View>
     );
 }
+ 
